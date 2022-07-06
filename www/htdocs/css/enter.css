@@ -1,0 +1,176 @@
+
+h1 { font-size: 8pt; color: #000000; }
+h2 { font-size: 8pt; color: #000000; }
+h3 { font-size: 8pt; color: #000000; }
+
+/*-----  エンター  -----*/
+body#enter{
+	background-color:#F6C1D2;
+	color:#000000;
+	font-size:12px;
+	background-image:url(../img/enterBg.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #bcbcc2;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #bcbcc2;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #ffffff;			/*矢印*/
+	letter-spacing:0.05em;
+	line-height:1.3em;
+	}
+	
+div#enterText{
+	margin:0px auto;
+	padding-top:45px;
+	width:800px;
+	height:30px;
+	text-align:center;
+	clear:both;
+	}
+
+div#enterBox{
+	behavior:url("../img/iepngfix.htc"); /*IE6でpng表示用*/
+	background-image:url(../img/enter.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding-top:335px;
+	width:800px;
+	height:50px;
+	clear:both;
+	}
+/*ボタン*/
+div#botan {
+	margin:0px auto;
+	padding:0px;
+	width:800px;
+	height:50px;
+	text-indent:-9999px;
+	clear:both;
+	}
+
+/*enterBotan*/
+div#enterBotan{
+	width:170px;
+	height:50px;
+	padding:0px 115px;
+	margin:0px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#enterBotan a {
+	display:block;
+	width:170px;
+	height:50px;
+	text-decoration:none;
+	}
+div#enterBotan a.this {
+	background-image:url("../img/enterOv.jpg");
+	background-repeat:no-repeat;
+	text-decoration:none;
+	display:block;
+	width:170px;
+	height:50px;
+	}
+div#enterBotan a:hover {
+	background-image:url("../img/enterOv.jpg");
+	background-repeat:no-repeat;
+	text-decoration:none;
+	display:block;
+	width:170px;
+	height:50px;
+	}
+
+/*exitBotan*/
+div#exitBotan{
+	width:170px;
+	height:50px;
+	padding:0px 115px;
+	margin:0px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#exitBotan a {
+	display:block;
+	width:170px;
+	height:50px;
+	text-decoration:none;
+	}
+div#exitBotan a.this {
+	background-image:url("../img/exitOv.jpg");
+	background-repeat:no-repeat;
+	text-decoration:none;
+	display:block;
+	width:170px;
+	height:50px;
+	}
+div#exitBotan a:hover {
+	background-image:url("../img/exitOv.jpg");
+	background-repeat:no-repeat;
+	text-decoration:none;
+	display:block;
+	width:170px;
+	height:50px;
+	}
+
+/*QRコード*/
+div#enterQr {
+	background-image:url("../img/qr.png");
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto 20px auto;
+	padding:0px;
+	width:140px;
+	height:220px;
+	text-indent:-9999px;
+	clear:both;
+	}
+div#enterQr a {
+	display: block;
+	width:140px;
+	height:220px;
+	text-decoration: none;
+	}
+div#enterQr a:hover {
+	display: block;
+	width:140px;
+	height:220px;
+	text-decoration: none;
+	}
+
+/*copyright*/
+div#copyright{
+	margin:60px auto 10px auto;
+	width:auto;
+	height:auto;
+	color:#666666;
+	text-align:center;
+	clear:both;
+}
+
+/*リンクバナーBox*/
+/*table.LinkBanner*/
+table.LinkBanner{
+	margin:10px auto;
+	padding:2px;
+	width:100%;
+	height:auto;
+	clear:both;
+	}
+table.LinkBanner th{
+	margin:0px;
+	padding:3px;
+	text-align:center;
+	}
+table.LinkBanner td{
+	margin:0px;
+	padding:10px;
+	width:220px;
+	text-align:center;
+	color:#333333;
+	font-size:10px;
+	}

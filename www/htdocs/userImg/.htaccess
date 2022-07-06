@@ -1,0 +1,71 @@
+RewriteEngine On
+#RewriteBase /userImg/
+# http://cafe-system.com/system128.html
+#ファイル ディレクトリーが存在しない
+
+#widthとheightを指定しないで、そのまま表示
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&pp=1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&pp=1 [L]
+
+#widthとheightを指定して表示
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)-h([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&height=$4 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)-h([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&height=$4 [L]
+
+#widthを指定して表示（heightは比率によって自動計算されます）
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&pp=1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&pp=1 [L]
+
+#heightを指定して表示（widthは比率によって自動計算されます）
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/h([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&height=$3&pp=1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/h([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&height=$3&pp=1 [L]
+
+
+#JPGの圧縮品質を設定した場合
+
+#widthとheightを指定しないで、そのまま表示
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&q=$4&pp=1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&q=$4&pp=1 [L]
+
+#widthとheightを指定して表示
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)-h([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&height=$4&q=$5 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)-h([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&height=$4&q=$5 [L]
+
+#widthを指定して表示（heightは比率によって自動計算されます）
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&pp=1&q=$4 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/w([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&width=$3&pp=1&q=$4 [L]
+
+#heightを指定して表示（widthは比率によって自動計算されます）
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/h([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&height=$3&pp=1&q=$4 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule ^([a-zA-Z0-9]+)/([0-9]+)/h([0-9]+)-q([0-9]+)\.(jpg|gif|png)$ /inc/picResize.php?imgId=$2&t=$1&height=$3&pp=1&q=$4 [L]

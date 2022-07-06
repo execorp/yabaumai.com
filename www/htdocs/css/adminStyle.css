@@ -1,0 +1,573 @@
+body#adminBase {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	background-color: #FFFFFF;
+
+	font-size: 12px;
+
+	color: #666666;
+
+	line-height: 125%;
+
+	background-image: url(../admin/img/bg_menu.gif);
+
+	background-repeat: repeat-y;
+
+	background-position: left top;
+
+}
+
+div#outline {
+
+	width: 800px;
+
+	height: auto;
+
+}
+
+div#menu_area {
+
+	width: 130px;
+
+	height: auto;
+
+	float: left;
+
+	padding: 5px;
+
+	margin: 0px;
+
+}
+
+div#contents {
+
+	width: 600px;
+
+	height: auto;
+
+	float: left;
+
+	padding: 10px;
+
+	margin-left: 20px;
+
+}
+
+h3#menu_title {
+
+	width: 120px;
+
+	margin: 0px;
+
+	padding-top: 5px;
+
+	padding-bottom: 2px;
+
+	padding-left: 2px;
+
+	padding-right: 2px;
+
+	font-size: 12px;
+
+	text-align: center;
+
+	background-color: #FFFFFF;
+
+	border: 4px double #333333;
+
+	font-weight: bold;
+
+	color: #333333;
+
+	float: left;
+
+}
+
+h3#pageTitle {
+
+	color: #666666;
+
+	border-top: 1px none #666666;
+
+	border-right: 1px none #666666;
+
+	border-bottom: 1px solid #666666;
+
+	border-left: 5px solid #666666;
+
+	line-height: 150%;
+
+	padding-top: 2px;
+
+	padding-bottom: 2px;
+
+	padding-left: 5px;
+
+	padding-right: 2px;
+
+	margin-bottom: 5px;
+
+}
+
+dl {
+
+	width: 132px;
+
+	margin: 0px;
+
+	padding-top: 5px;
+
+	padding-left: 0px;
+
+	clear: both;
+
+	text-align: left;
+
+}
+
+dt {
+
+	background-color: #666666;
+
+	padding: 2px;
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+
+}
+
+dd {
+
+	background-color: #FFFFFF;
+
+	font-size: 12px;
+
+	clear: both;
+
+	margin: 0px;
+
+	padding-top: 2px;
+
+	padding-bottom: 2px;
+
+	padding-left: 0.5em;
+
+	padding-right: 2px;
+
+}
+
+div.topUrl {
+
+	width: 600px;
+
+	margin-bottom: 20px;
+
+	text-align: right;
+
+}
+
+div.massage {
+
+	width: 590px;
+
+	padding-left: 5px;
+
+	padding-right: 2px;
+
+	padding-top: 5px;
+
+	padding-bottom: 2px;
+
+	margin-bottom: 10px;
+
+	border: 1px solid #333333;
+
+	color: #FF0000;
+
+	float: left;
+
+	clear: both;
+
+}
+
+div.selCount {
+
+	width: 220px;
+
+	height: auto;
+
+	margin: 0px;
+
+	padding-left: 20px;
+
+	padding-right: 2px;
+
+	padding-top: 5px;
+
+	padding-bottom: 2px;
+
+	float: left;
+
+	border: 0px solid #333333;
+
+}
+
+table {
+
+	margin-top: 10px;
+
+	margin-bottom: 10px;
+
+	padding: 2px;
+
+	border: 1px solid #333333;
+
+	float: left;
+
+}
+
+table.t1 {
+
+	width: 590px;
+
+	height: auto;
+
+	margin-bottom: 10px;
+
+	float: left;
+
+	clear: both;
+
+}
+
+table.t2 {
+
+	width: 590px;
+
+	height: auto;
+
+	margin-bottom: 10px;
+
+	float: left;
+
+	clear: both;
+
+	font-size: 9pt;
+
+}
+
+th {
+
+	background-color: #EEEEEE;
+
+	border: 1px solid #333333;
+
+	margin: 0px;
+
+	padding: 3px;
+
+	text-align: left;
+
+}
+
+th.addGal {
+
+	width: 110px;
+
+}
+
+th.addGal2 {
+
+	width: 80px;
+
+	text-align: right;
+
+}
+
+td {
+
+	background-color: #FFFFFF;
+
+	border: 1px solid #333333;
+
+	padding: 3px;
+
+}
+
+th.center {
+
+	text-align: center;
+
+}
+
+td.center {
+
+	text-align: center;
+
+}
+
+div.submit {
+
+	width: 560px;
+
+	text-align: center;
+
+}
+
+input {
+
+	margin: 3px;
+
+}
+
+input.botan_right {
+
+	padding: 3px;
+
+}
+
+span.Red {
+
+	color: #FF0000;
+
+}
+
+span.cap {
+
+	font-size: 10px;
+
+	color: #FF0000;
+
+	margin: 0px;
+
+	padding: 0px;	
+
+	line-height: 100%;
+
+}
+
+td.cal {
+
+	text-align: center;
+
+	background-color: #EEEEEE;
+
+}
+
+td.cal_sun {
+
+	text-align: center;
+
+	background-color: #FFDDDD;
+
+}
+
+td.cal_sat {
+
+	text-align: center;
+
+	background-color: #99DDFF;
+
+}
+
+td.cal_today {
+
+	text-align: center;
+
+	background-color: #FF9999;
+
+	font-weight: bold;
+
+}
+
+td.cal_insert {
+
+	text-align: center;
+
+	background-color: #FFFFFF;
+
+	border: 1px solid #333333;
+
+	padding:5px;
+
+	margin:0px;
+
+	height:20px;
+
+}
+
+td.cal_update {
+
+	text-align: center;
+
+	background-color: #FFCCFF;
+
+	border: 1px solid #333333;
+
+	padding:5px;
+
+	margin:0px;
+
+	height:40px;
+
+}
+
+h6#maga_count{
+
+	margin: 0px;
+
+	padding:0px;
+
+	color:#000000;
+
+	font-size:12px;
+
+	float: left;
+
+}
+
+h6#maga_allcount{
+
+	margin: 0px;
+
+	padding:0px;
+
+	color:#FF0000;
+
+	font-size:12px;
+
+	float: left;
+
+}
+
+div.centerBox {
+
+	width: 360px;
+
+	height: 480px;
+
+	margin-top: 10px;
+
+	margin-bottom: 0px;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	padding-top: 20px;
+
+	padding-bottom: 5px;
+
+	padding-left: 0px;
+
+	padding-right: 0px;
+
+	text-align: center;
+
+}
+
+td.realEntry {
+
+	background-color: #FFCCFF;
+
+	text-align: center;
+
+}
+
+h4.realTitle {
+
+	width: 544px;
+
+	height: auto;
+
+	margin-top: 10px;
+
+
+	margin-bottom: -5px;
+
+	padding-top: 2px;
+
+	padding-bottom: 1px;
+
+	padding-left: 5px;
+
+	padding-right: 5px;
+
+	border: 3px double #FE0B55;
+
+	color: #0000FF;
+
+	background-color: #FFFFFF;
+
+	font-size: 10pt;
+
+	font-weight: bold;
+
+	text-align: left;
+
+	float: left;
+
+}
+
+div.realData {
+
+	width: 590px;
+
+	height: 400px;
+
+	margin-top: 5px;
+
+	margin-bottom: 5px;
+
+	padding: 0px;
+
+	overflow: scroll;
+
+	border: 0px solid #000000;
+
+}
+
+input.botan_R {
+
+	width: 200px;
+
+	float: right;
+
+}
+
+input.botan_L {
+
+	float: left;
+
+}
+
+div.submit2 {
+
+	width: 542px;
+
+	text-align: center;
+
+}
+
+iframe.ifrHidden {
+
+	width: 0px;
+
+	height: 0px;
+
+	visibility: hidden;
+
+}
+
+
+
+form {
+
+	margin: 0px;
+
+}
+

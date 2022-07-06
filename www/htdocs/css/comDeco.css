@@ -1,0 +1,123 @@
+span.b {
+
+	font-weight: bold;
+
+}
+
+span.sizeS1 {
+
+	font-size: 5pt;
+
+	line-height: 110%;
+
+}
+
+span.uLine {
+
+	text-decoration: underline;
+
+}
+
+span.sizeB1 {
+
+	font-size: 150%;
+
+	line-height: 110%;
+
+}
+
+span.sizeB2 {
+
+	font-size: 200%;
+
+	line-height: 110%;
+
+}
+
+span.sizeB3 {
+
+	font-size: 250%;
+
+	line-height: 110%;
+
+}
+
+span.red {
+
+	color: #FF0000;
+
+}
+
+span.blue {
+
+	color: #0000FF;
+
+}
+
+span.yellow {
+
+	color: #FFFF00;
+
+}
+
+span.pink {
+
+	color: #FF00FF;
+
+}
+
+span.green {
+
+	color: #00FF00;
+
+}
+
+span.skyblue {
+
+	color: #00FFFF;
+
+}
+
+marquee {
+
+	text-align: center;
+
+}
+
+p.hLine {
+
+	width: 80%;
+
+	border-bottom-width: 1px;
+
+	border-bottom-style: dotted;
+
+	border-bottom-color: #999999;
+
+	text-align: left;
+
+	margin-bottom: 0em;
+
+	margin-top: 0.2em;
+
+	line-height: 0px;
+
+	text-indent: -9999px;
+
+	margin-right: 0px;
+
+	margin-left: 0px;
+
+}
+
+span.galLink {
+
+	color: #e704e9;
+
+}
+
+input.galLinkBotan {
+
+	width: 50px;
+
+}

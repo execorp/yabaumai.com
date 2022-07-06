@@ -1,0 +1,33 @@
+<?
+define('NINJA_DOMAIN',	'x8.suichu-ka.com');
+
+//PC—p”EŽÒID’è”‰»
+define('NINJA_PC_ENTER',	'146009700' );
+define('NINJA_PC_TOP',		'146009701' );
+define('NINJA_PC_GIRL',		'146009702' );
+//define('NINJA_PC_NEWFACE',	'144913703' );
+define('NINJA_PC_SCHEDULE',	'146009703' );
+define('NINJA_PC_SYSTEM',	'146009704' );
+define('NINJA_PC_RESERVE',	'146009705' );
+define('NINJA_PC_RECRUIT',	'146009706' );
+define('NINJA_PC_DIARY',	'146009707' );
+define('NINJA_PC_LINK',		'146009708' );
+define('NINJA_PC_MAGAZINE',	'146009709' );
+define('NINJA_PC_CARD',		'14600970a' );
+//Œg‘Ñ—p”EŽÒID’è”‰»
+define('NINJA_MOBILE_ENTER',	'14600970b' );
+define('NINJA_MOBILE_TOP',		'14600970c' );
+//define('NINJA_MOBILE_NEWFACE',	'14491370d' );
+//define('NINJA_MOBILE_EVENT',	'14491370e' );
+define('NINJA_MOBILE_STAFFDIARY',	'14600970d' );
+define('NINJA_MOBILE_NEWS',		'14600970e' );
+define('NINJA_MOBILE_SCHEDULE',	'14600970f' );
+define('NINJA_MOBILE_GIRL',		'14600970g' );
+define('NINJA_MOBILE_SYSTEM',	'14600970h' );
+define('NINJA_MOBILE_RECRUIT',	'14600970i' );
+define('NINJA_MOBILE_DIARY',	'14600970j' );
+define('NINJA_MOBILE_CARD',		'14600970k' );
+define('NINJA_MOBILE_RESERVE',	'14600970l' );
+define('NINJA_MOBILE_MAGAZINE',	'14600970m' );
+
+?>

@@ -1,0 +1,9 @@
+php_flag display_errors on
+
+AuthUserFile /var/www/yabaumai.com/www/htdocs/webAdmin/.htpasswd
+AuthType Basic   
+AuthName "Staff Only!"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>

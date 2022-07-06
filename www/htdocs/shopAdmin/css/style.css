@@ -1,0 +1,557 @@
+/*-----  リンク  -----*/
+a:link {
+	color:#ff6500;
+	text-decoration:none;
+}
+a:visited {
+	color:#999999;
+	text-decoration:none;
+}
+a:hover {
+	color:#FAC011;
+	text-decoration:underline;
+}
+a:active {
+	color:#999999;
+	text-decoration:none;
+}
+
+/*-----  ログイン  -----*/
+body{
+	color:#555555;
+	font-size:12px;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #bcbcc2;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #bcbcc2;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #ffffff;			/*矢印*/
+	letter-spacing:0.05em;
+	line-height:1.3em;
+	}
+div#login{
+	background-image:url("../img/logIn.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+	margin:60px auto 0px auto;
+	padding:40px 25px;
+	width:220px;
+	height:200px;
+	font-size:10px;
+	color:#ffffff;
+	text-align:center;
+	clear:both;
+	}
+	
+div#login div.loginBana{
+	margin:0px auto;
+	padding:0px;
+	width:220px;
+	height:100px;
+	font-size:10px;
+	color:#ffffff;
+	text-align:center;
+	clear:both;
+	}
+div#login div.loginBox{
+	margin:0px;
+	padding:0px;
+	width:220px;
+	height:30px;
+	font-size:10px;
+	color:#ffffff;
+	text-align:right;
+	clear:both;
+	}
+div#login p.title{
+	margin:0px;
+	padding-right:3px;
+	padding-top:3px;
+	width:77px;
+	height:27px;
+	font-size:10px;
+	color:#ffffff;
+	text-align:right;
+	float:left;
+	}
+div#login p.title img{  /*アイコン画像（アイコンとテキストの縦横を揃える）*/
+	vertical-align:-10%;
+	padding:0px 3px;
+}
+div#login p.text{
+	margin:0px;
+	padding:0px;
+	width:140px;
+	height:30px;
+	font-size:10px;
+	color:#ffffff;
+	text-align:left;
+	float:left;
+	}
+/*-----  ヘッダー  -----*/
+body#header{
+	background-image:url("../img/header_bg.jpg");
+	background-repeat:repeat-x;
+	background-position:center top;
+	background-color:#D3E3FA;
+	color:#000000;
+	font-size:12px;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #bcbcc2;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #bcbcc2;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #ffffff;			/*矢印*/
+	letter-spacing:0.05em;
+	line-height:1.3em;
+	}
+
+div#header{
+	background-image:url("../img/header.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+	margin:0px;
+	padding:0px;
+	width:auto;
+	height:115px;
+	clear:both;
+	}
+/*ロゴ*/
+div#header div#rogo{
+	margin:0px;
+	padding-top:40px;
+	width:175px;
+	height:75px;
+	text-align:center;
+	float:left;
+	}
+div#header div#rogo a{
+	font-size:10px;
+	color:#ffffff;
+	}
+/*カテゴリーBox*/
+div#header div#categoryBox{
+	margin:0px;
+	padding-bottom:10px;
+	width:auto;
+	height:105px;
+	float:left;
+	}
+/*テキスト*/
+div#header div#text{
+	margin:0px auto;
+	padding:0px;
+	width:900px;
+	height:25px;
+	position:absolute;
+	top:0px;
+	left:163px;
+	/*
+	width:900px;
+	height:25px;
+	clear:both;
+	*/
+	}
+div#header div#text p#title{
+	margin:0px;
+	padding-top:5px;
+	padding-right:15px;
+	width:110px;
+	height:20px;
+	text-align:right;
+	font-size:11px;
+	color:#000000;
+	float:left;
+	}
+div#header div#text p#name{
+	margin:0px;
+	padding-top:5px;
+	/*padding-left:5px;
+	width:385px;*/
+	width:380px;
+	height:20px;
+	text-align:left;
+	font-size:11px;
+	color:#ffffff;
+	float:left;
+	}
+div#header div#text p#icon{
+	margin:0px;
+	padding:0px;
+	padding-right:5px;
+	width:295px;
+	height:20px;
+	text-align:right;
+	font-size:11px;
+	color:#ffffff;
+	float:left;
+	}
+div#header div#text p#icon img {
+	padding:0px 10px;
+	}
+
+div#header div#text p#logout{
+	margin:0px;
+	padding-top:2px;
+	width:95px;
+	height:23px;
+	text-align:right;
+	float:left;
+	}
+/*カテゴリー*/
+div#category{
+	margin:0px auto;
+	padding:0px;
+	width:970px;
+	height:80px;
+	position:absolute;
+	top:25px;
+	left:163px;
+	/*
+	width:970px;
+	height:80px;
+	clear:both;
+	*/
+	}
+/*カテゴリーLIST*/
+div#category ul{
+	width:970px;
+	height:80px;
+	margin:0px auto;
+	padding:0px;
+	text-indent:-9999px;
+	list-style-type:none;
+	clear:both;
+	}
+div#category a{
+	display:block;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	}
+/*
+div#category ul{
+	list-style-type:none;
+	}
+*/
+/*-----  メニュー  -----*/
+/*body*/
+body#menu{
+	background-image:url("../img/menu_bg.gif");
+	background-repeat:repeat-y;
+	background-position:center top;
+	background-color:#A8C9F4;
+	color:#000000;
+	font-size:12px;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #bcbcc2;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #bcbcc2;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #ffffff;			/*矢印*/
+	letter-spacing:0.05em;
+	line-height:1.3em;
+	}
+div#menuBox{
+	background-image:url("../img/menu.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px;
+	padding-top:25px;
+	width:175px;
+	height:100%;
+	clear:both;
+	}
+div.menu{
+	margin:0px auto;
+	padding:0px;
+	width:174px;
+	height:100%;
+	clear:both;
+	}
+div.menu p.title{
+	background-image:url("../img/list_bg.jpg");
+	background-repeat:repeat-x;
+	background-position:center top;
+	margin:0px auto;
+	padding-top:8px;
+	width:174px;
+	height:27px;
+	font-size:12px;
+	color:#ffffff;
+	clear:both;
+	}
+div.menu p.title img{  /*アイコン画像（アイコンとテキストの縦横を揃える）*/
+	vertical-align:-10%;
+	padding:0px 3px;
+}
+div.menu ul{
+	width:174px;
+	height:auto;
+	margin:0px auto;
+	padding:0px;
+	list-style-type:none;
+	clear:both;
+	}
+div.menu a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#000000;
+	}
+div.menu li {
+	width:174px;
+	height:auto;
+	padding:0px;
+	line-height:280%;
+	margin:0px;
+	border-bottom:1px dashed #0E80C2;
+	clear:both;
+}
+div.menu li a.other {
+	text-decoration:none;
+}
+div.menu li a.this {
+	text-decoration:none;
+	background-color:#69CCF3;
+	border-bottom:1px dashed #0E80C2;
+}
+div.menu li a:hover {
+	text-decoration:none;
+	background-color:#69CCF3;
+	border-bottom:1px dashed #0E80C2;
+}
+/*-----  メイン  -----*/
+/*body*/
+body#main{
+	background-image:url("../img/main_bg.gif");
+	background-repeat:repeat-y;
+	background-position:left top;
+	background-color:#D3E3FA;
+	color:#000000;
+	font-size:12px;
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #bcbcc2;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #bcbcc2;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #ffffff;			/*矢印*/
+	letter-spacing:0.05em;
+	line-height:1.3em;
+	}
+div#main{
+	width:900px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	background-color:#ffffff;
+	clear:both;
+}
+
+div#main div.title{
+	background-image:url("../img/title.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:900px;
+	height:60px;
+	margin:20px auto;
+	padding:0px;
+	background-color:#ffffff;
+	clear:both;
+}
+div#main div.title p.category{
+	width:180px;
+	height:40px;
+	margin:0px;
+	padding-top:20px;
+	color:#cccccc;
+	font-size:16px;
+	text-align:center;
+	float:left;
+}
+div#main div.title p.category img{  /*アイコン画像（アイコンとテキストの縦横を揃える）*/
+	vertical-align:-10%;
+	padding:0px 3px;
+}
+div#main div.title p.page{
+	width:680px;
+	height:35px;
+	margin:0px;
+	padding-left:40px;
+	padding-top:25px;
+	font-size:16px;
+	color:#ffffff;
+	text-align:left;
+	float:left;
+}
+
+/*sort*/
+div.sort{
+	margin:0px auto;
+	padding:0px;
+	width:90%;
+	height:auto;
+	text-align:right;
+	clear:both;
+	}
+div.sort img{  /*アイコン画像（アイコンとテキストの縦横を揃える）*/
+	vertical-align:-10%;
+	padding:0px 3px;
+}
+/*table*/
+table{
+	margin:0px auto 20px auto;
+	padding:1px;
+	width:90%;
+	height:auto;
+	background-color:#0E80C2;
+	border-spacing:1px;
+	clear:both;
+	}
+table th{
+	margin:0px;
+	padding:5px;
+	text-align:center;
+	color:#0E80C2;
+	background-color:#D3E3FA;
+	font-size:12px;
+	}
+table td{
+	margin:0px;
+	padding:3px;
+	text-align:center;
+	color:#000000;
+	background-color:#ffffff;
+	font-size:12px;
+	}
+table td.left{
+	margin:0px;
+	padding:3px;
+	text-align:left;
+	color:#000000;
+	background-color:#ffffff;
+	font-size:12px;
+	}
+table td.submit{
+	margin:0px;
+	padding:3px;
+	text-align:center;
+	color:#000000;
+	background-color:#0E80C2;
+	font-size:12px;
+	}
+
+
+
+/*お知らせ*/
+div#homeIcon{
+	margin:0px auto;
+	padding:0px;
+	width:770px;
+	height:20px;
+	text-align:right;
+	color:#0E80C1;
+	font-size:11px;
+	clear:both;
+	}
+div#homeIcon img{  /*アイコン画像（アイコンとテキストの縦横を揃える）*/
+	vertical-align:-10%;
+	padding:0px 3px;
+}
+div#homeBox{
+	margin:0px auto;
+	padding:10px;
+	width:770px;
+	height:500px;
+	background-color:#F5F5F5;
+	clear:both;
+	}
+div#homeComment{
+	overflow:auto;
+	scrollbar-face-color: #F5F5F5;			/*バー本体*/ 
+	scrollbar-3dlight-color: #0E80C1;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #0E80C1;	/*バー外側の暗*/
+	scrollbar-highlight-color: #F5F5F5;		/*バー内側の明*/
+	scrollbar-shadow-color: #F5F5F5;		/*バー内側の暗*/
+	scrollbar-track-color: #F5F5F5;			/*バーの下地*/
+	scrollbar-arrow-color: #0E80C1;			/*矢印*/
+	margin:0px auto;
+	padding:10px;
+	width:750px;
+	height:480px;
+	clear:both;
+	}
+div.homeCommentBox{
+	margin:0px auto;
+	padding-top:10px;
+	width:750px;
+	height:auto;
+	border-top:1px dashed #0E80C1;
+	clear:both;
+	}
+div.homeCommentBox div.dayText{
+	margin:0px;
+	padding:0px;
+	width:680px;
+	height:auto;
+	float:left;
+	}
+div.homeCommentBox p.day{
+	background-image:url("../img/ya2.gif");
+	background-repeat:no-repeat;
+	background-position:left center;
+	margin:0px;
+	padding-left:15px;
+	width:665px;
+	height:20px;
+	color:#0E80C1;
+	font-size:11px;
+	font-weight:bold;
+	clear:both;
+	}
+div.homeCommentBox p.day img{  /*アイコン画像（アイコンとテキストの縦横を揃える）*/
+	vertical-align:-10%;
+	padding:0px 3px;
+}
+div.homeCommentBox p.text{
+	margin:5px 0px;
+	padding-left:15px;
+	width:665px;
+	height:auto;
+	color:#000000;
+	font-size:12px;
+	line-height:130%;
+	clear:both;
+	}
+
+div.homeCommentBox div.formSubmit{
+	margin:0px;
+	padding-top:10px;
+	width:auto;
+	height:auto;
+	float:left;
+	}
+	
+	
+div#homePager{
+	margin:5px auto;
+	padding:0px;
+	width:auto;
+	height:auto;
+	font-size:12px;
+	clear:both;
+	}
+	
+span.cap{
+	font-size:10px;
+	color:#ff0000;
+}

@@ -1,0 +1,197 @@
+/*-----    ƒƒCƒ“ƒƒjƒ…[  -----*/
+div#menu{
+	width:600px;
+	height:30px;
+	margin:0px auto;
+	padding:0px;
+	float:left;
+	}
+div#menu a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-indent:-9999px;
+	}
+div#menu ul{
+	}
+/*-----ƒgƒbƒv*/
+li#top {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top a.other {
+}
+li#top a.this {
+	background-image:url(../img/menu/0.jpg);
+	background-repeat:no-repeat;
+}
+li#top a:hover {
+	background-image:url(../img/menu/0.jpg);
+	background-repeat:no-repeat;
+}
+/*-----–kŠC“¹*/
+li#top1 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top1 a.other {
+}
+li#top1 a.this {
+	background-image:url(../img/menu/1.jpg);
+	background-repeat:no-repeat;
+}
+li#top1 a:hover {
+	background-image:url(../img/menu/1.jpg);
+	background-repeat:no-repeat;
+}
+/*-----“Œ–k*/
+li#top2 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top2 a.other {
+}
+li#top2 a.this {
+	background-image:url(../img/menu/2.jpg);
+	background-repeat:no-repeat;
+}
+li#top2 a:hover {
+	background-image:url(../img/menu/2.jpg);
+	background-repeat:no-repeat;
+}
+/*-----ŠÖ“Œ*/
+li#top3 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top3 a.other {
+}
+li#top3 a.this {
+	background-image:url(../img/menu/3.jpg);
+	background-repeat:no-repeat;
+}
+li#top3 a:hover {
+	background-image:url(../img/menu/3.jpg);
+	background-repeat:no-repeat;
+}
+/*-----M‰zE–k—¤*/
+li#top4 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top4 a.other {
+}
+li#top4 a.this {
+	background-image:url(../img/menu/4.jpg);
+	background-repeat:no-repeat;
+}
+li#top4 a:hover {
+	background-image:url(../img/menu/4.jpg);
+	background-repeat:no-repeat;
+}
+/*-----“ŒŠC*/
+li#top5 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top5 a.other {
+}
+li#top5 a.this {
+	background-image:url(../img/menu/5.jpg);
+	background-repeat:no-repeat;
+}
+li#top5 a:hover {
+	background-image:url(../img/menu/5.jpg);
+	background-repeat:no-repeat;
+}
+/*-----ŠÖ¼*/
+li#top6 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top6 a.other {
+}
+li#top6 a.this {
+	background-image:url(../img/menu/6.jpg);
+	background-repeat:no-repeat;
+}
+li#top6 a:hover {
+	background-image:url(../img/menu/6.jpg);
+	background-repeat:no-repeat;
+}
+/*-----’†‘*/
+li#top7 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top7 a.other {
+}
+li#top7 a.this {
+	background-image:url(../img/menu/7.jpg);
+	background-repeat:no-repeat;
+}
+li#top7 a:hover {
+	background-image:url(../img/menu/7.jpg);
+	background-repeat:no-repeat;
+}
+/*-----l‘*/
+li#top8 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top8 a.other {
+}
+li#top8 a.this {
+	background-image:url(../img/menu/8.jpg);
+	background-repeat:no-repeat;
+}
+li#top8 a:hover {
+	background-image:url(../img/menu/8.jpg);
+	background-repeat:no-repeat;
+}
+/*-----‹ãBE‰«“ê*/
+li#top9 {
+	width:60px;
+	height:30px;
+	padding:0px;
+	text-indent:-999999px;
+	float:left;
+}
+li#top9 a.other {
+}
+li#top9 a.this {
+	background-image:url(../img/menu/9.jpg);
+	background-repeat:no-repeat;
+}
+li#top9 a:hover {
+	background-image:url(../img/menu/9.jpg);
+	background-repeat:no-repeat;
+}
+}

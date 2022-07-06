@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine off
+</IfModule>
+
+<files imagick.php>
+      AddHandler application/x-httpd-phpcgi .php
+</files>

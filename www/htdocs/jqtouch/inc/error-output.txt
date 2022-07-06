@@ -1,0 +1,76 @@
+-:2991: parser error : attributes construct error
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2991: parser error : Couldn't find end of Start Tag DefineEditText line 2991
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2998: parser error : Opening and ending tag mismatch: tags line 7 and DefineEditText
+      </DefineEditText>
+                       ^
+-:6189: parser error : Opening and ending tag mismatch: Header line 3 and tags
+    </tags>
+           ^
+-:6190: parser error : Opening and ending tag mismatch: swf line 2 and Header
+  </Header>
+           ^
+-:6191: parser error : Extra content at the end of the document
+</swf>
+^
+ERROR: input document stdin could not be read.
+-:2991: parser error : attributes construct error
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2991: parser error : Couldn't find end of Start Tag DefineEditText line 2991
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2998: parser error : Opening and ending tag mismatch: tags line 7 and DefineEditText
+      </DefineEditText>
+                       ^
+-:6189: parser error : Opening and ending tag mismatch: Header line 3 and tags
+    </tags>
+           ^
+-:6190: parser error : Opening and ending tag mismatch: swf line 2 and Header
+  </Header>
+           ^
+-:6191: parser error : Extra content at the end of the document
+</swf>
+^
+ERROR: input document stdin could not be read.
+-:2991: parser error : attributes construct error
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2991: parser error : Couldn't find end of Start Tag DefineEditText line 2991
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2998: parser error : Opening and ending tag mismatch: tags line 7 and DefineEditText
+      </DefineEditText>
+                       ^
+-:6189: parser error : Opening and ending tag mismatch: Header line 3 and tags
+    </tags>
+           ^
+-:6190: parser error : Opening and ending tag mismatch: swf line 2 and Header
+  </Header>
+           ^
+-:6191: parser error : Extra content at the end of the document
+</swf>
+^
+ERROR: input document stdin could not be read.
+-:2991: parser error : attributes construct error
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2991: parser error : Couldn't find end of Start Tag DefineEditText line 2991
+ariableName="" initialText="業界完全未経験の度肝を抜く可愛さの"
+                                                                               ^
+-:2998: parser error : Opening and ending tag mismatch: tags line 7 and DefineEditText
+      </DefineEditText>
+                       ^
+-:6189: parser error : Opening and ending tag mismatch: Header line 3 and tags
+    </tags>
+           ^
+-:6190: parser error : Opening and ending tag mismatch: swf line 2 and Header
+  </Header>
+           ^
+-:6191: parser error : Extra content at the end of the document
+</swf>
+^
+ERROR: input document stdin could not be read.

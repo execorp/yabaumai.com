@@ -1,0 +1,40 @@
+AddType application/xhtml+xml .html
+
+RewriteEngine on
+
+#www統一
+RewriteCond %{HTTP_HOST} ^(delihealjob.com)(:80)? [NC]
+RewriteRule ^(.*) http://yabaumai.com/$1 [R=301,L] 
+#RewriteRule ^(.*) http://yabaumai.com.38-218.execute.jp/$1 [R=301,L] 
+
+#ドメイン開通後ルール
+RewriteRule ^index\.html$ index.php
+RewriteRule ^index\.html$ index.php
+RewriteRule ^index([0-9]+)-([0-9]+)\.html$ index.php?areaId=$1&prefectureId=$2
+RewriteRule ^index([0-9]+)\.html$ index.php?areaId=$1
+RewriteRule ^index([0-9]+)\.html$ index.php?newsId=$1
+RewriteRule ^index([0-9]+)_([0-9]+)\.html$ index.php?areaId=$1&newsId=$2
+
+RewriteRule ^shop\.html$ shop.php
+RewriteRule ^shop([0-9]+)-([0-9]+)-([0-9]+)\.html$ shop.php?areaId=$1&prefectureId=$2&shopId=$3
+RewriteRule ^shop([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)\.html$ shop.php?areaId=$1&prefectureId=$2&shopId=$3&newsId=$4
+RewriteRule ^shop([0-9]+)\.html$ shop.php?areaId=$1
+RewriteRule ^shop_([0-9]+)\.html$ shop.php?newsId=$1
+#RewriteRule ^shop_([0-9]+)\.html$ shop.php?shopId=$1
+RewriteRule ^shop([0-9]+)_([0-9]+)\.html$ shop.php?areaId=$1&newsId=$2
+
+RewriteRule ^link\.html$ link.php
+RewriteRule ^use\.html$ use.php
+RewriteRule ^escape\.html$ escape.php
+RewriteRule ^privacy\.html$ privacy.php
+RewriteRule ^inquiry\.html$ inquiry.php
+RewriteRule ^adver\.html$ adver.php
+RewriteRule ^link([0-9]+)\.html$ link.php?genre=$1
+RewriteRule ^gaiyou\.html$ gaiyou.php
+
+ErrorDocument 404 /404.php
+
+php_flag display_errors on
+
+#php_value session.auto_start 0
+#

@@ -1,0 +1,1176 @@
+/*-----  リンク  -----*/
+a:link {
+	color:#000031;
+	text-decoration:none;
+}
+a:visited {
+	color:#000031;
+	text-decoration:none;
+}
+a:hover {
+	color:#64705C;
+	text-decoration:underline;
+}
+a:active {
+	color:#e4e4e4;
+	text-decoration:none;
+}
+/*-----  ヘッダー  -----*/
+div#header-bg{
+	background-image:url(../img/header-bg.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	height:180px;
+	clear:both;
+	}
+div#header{
+	background-image:url(../img/header.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px;
+	width:860px;
+	height:180px;
+	clear:both;
+	}
+/*h1*/
+div#header div#h1 {
+	background-color:#000031;
+	margin:0px auto;
+	padding:0px;
+	width:860px;
+	height:15px;
+	clear:both;
+	}
+div#header div#h1 h1{
+	color:#ffffff;
+	padding-left:3px;
+	text-align:left;
+	font-size:8px;
+	}
+/*ロゴ*/
+div#header div#rogo {
+	margin:0px;
+	padding:0px 125px 60px 45px;
+	width:80px;
+	height:85px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#header div#rogo a {
+	display: block;
+	width:80px;
+	height:85px;
+	text-decoration: none;
+	}
+div#header div#rogo a:hover {
+	display: block;
+	width:80px;
+	height:85px;
+	text-decoration: none;
+	}
+/*募集バナー*/
+div#header div#headerBanner {
+	margin:0px;
+	padding:0px;
+	width:610px;
+	height:55px;
+	text-align:right;
+	float:left;
+	}
+
+/*メニュー*/
+/*
+div#header div#menuList {
+	margin:0px;
+	padding:0px;
+	width:555px;
+	height:45px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#header div#menuList p{
+	margin:0px;
+	padding:0px;
+	width:135px;
+	height:45px;
+	float:left;
+	}
+div#header div#menuList p a {
+	display: block;
+	width:135px;
+	height:45px;
+	text-decoration: none;
+	}
+div#header div#menuList p a:hover {
+	display: block;
+	width:135px;
+	height:45px;
+	text-decoration: none;
+	}
+*/
+/*パンくず*/
+div#pagePrint{
+	margin:0px;
+	padding-top:1px;
+	padding-left:25px;
+	width:835px;
+	height:20px;
+	font-size:11px;
+	clear:both;
+	}
+div#pagePrint a{
+	color:#000031;
+	}
+
+/*-----  メイン  -----*/
+div#main{
+	margin:0px auto;
+	padding:10px;
+	width:840px;
+	height:auto;
+	clear:both;
+	}
+
+
+/*-----  トップ用  -----*/
+div#leftBox {
+	margin:0px;
+	padding-right:10px;
+	width:650px;
+	height:auto;
+	float:left;
+	}
+
+/*QRコードBox*/
+div#qrBox {
+	margin:0px;
+	padding-right:10px;
+	width:140px;
+	height:320px;
+	float:left;
+	}
+/*QRコード*/
+div#qr {
+	background-image:url(../img/qr.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding-bottom:10px;
+	width:140px;
+	height:220px;
+	text-indent:-9999px;
+	clear:both;
+	}
+div#qr a {
+	display: block;
+	width:140px;
+	height:220px;
+	text-decoration: none;
+	}
+div#qr a:hover {
+	display: block;
+	width:140px;
+	height:220px;
+	text-decoration: none;
+	}
+/*FlashPlayer*/
+div#FlashPlayer {
+	background-image:url(../img/flashPlayer.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding-bottom:10px;
+	width:140px;
+	height:90px;
+	text-indent:-9999px;
+	clear:both;
+	}
+div#FlashPlayer a {
+	display: block;
+	width:140px;
+	height:90px;
+	text-decoration: none;
+	}
+div#FlashPlayer a:hover {
+	display: block;
+	width:140px;
+	height:90px;
+	text-decoration: none;
+	}
+/*地図Flash*/
+div.mapFlash {
+	margin-bottom:10px;
+	padding:0px;
+	width:500px;
+	height:320px;
+	float:left;
+	}
+
+/*新着系*/
+div#topNewsBox{
+	background-image:url(../img/topNews.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto 10px auto;
+	padding:60px 15px 15px 15px;
+	width:620px;
+	height:215px;
+	clear:both;
+	}
+div#topNewsBox div#box{
+	overflow:auto;
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #CCCCCC;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #CCCCCC;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #CCCCCC;			/*矢印*/
+	margin:0px auto;
+	padding:0px;
+	width:620px;
+	height:215px;
+	text-align:left;
+	clear:both;
+	}
+
+table.news{
+	margin:0px auto;
+	padding:2px;
+	width:100%;
+	height:auto;
+	border-collapse:collapse;
+	clear:both;
+	}
+table.news td.day{
+	background-image:url(../img/mark.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin:0px;
+	padding-left:20px;
+	width:80px;
+	height:auto;
+	text-align:left;
+	color:#4c4c4c;
+	background-color:#CBCBCB;
+	border-bottom:1px dashed #4c4c4c;
+	font-size:10px;
+	}
+table.news td.title{
+	margin:0px;
+	padding:3px;
+	width:auto;
+	height:auto;
+	text-align:left;
+	color:#4c4c4c;
+	background-color:#e5e5e5;
+	border-bottom:1px dashed #4c4c4c;
+	font-size:10px;
+	}
+table.news td.title a{
+	color:#000031;
+	}
+table.news td.shop{
+	margin:0px;
+	padding:3px;
+	width:auto;
+	height:auto;
+	text-align:left;
+	color:#4c4c4c;
+	background-color:#CBCBCB;
+	border-bottom:1px dashed #4c4c4c;
+	font-size:10px;
+	}
+
+p.day{
+	background-image:url(../img/mark.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin:0px;
+	padding-left:20px;
+	width:auto;
+	height:auto;
+	font-size:10px;
+	text-align:left;
+	clear:both;
+	}
+p.title{
+	margin:0px;
+	padding:0px;
+	width:auto;
+	height:auto;
+	font-size:10px;
+	font-weight:bold;
+	text-align:left;
+	color:#1265AC;
+	clear:both;
+	}
+p.comment{
+	margin:0px;
+	padding:0px;
+	width:auto;
+	height:auto;
+	font-size:12px;
+	line-height:130%;
+	text-align:left;
+	color:#000000;
+	clear:both;
+	}
+p.comment span{
+	color:#000032;
+	}
+
+/* オススメ求人情報 */
+div#rightBox {
+	margin:0px;
+	padding:0px;
+	width:180px;
+	height:auto;
+	float:left;
+	}
+div#recommendTop{
+	background-image:url(../img/recommendTop.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px;
+	width:180px;
+	height:85px;
+	text-indent:-999999px;
+	clear:both;
+	}
+div#recommendBanner{
+	background-image:url(../img/recommendBg.gif);
+	background-repeat:repeat-y;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px 15px;
+	width:150px;
+	height:auto;
+	clear:both;
+	}
+div#recommendBanner p{
+	margin:0px auto;
+	padding-bottom:20px;
+	width:150px;
+	height:auto;
+	text-align:center;
+	font-size:10px;
+	clear:both;
+	}
+div#recommendBottom{
+	background-image:url(../img/recommendBottom.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px;
+	width:180px;
+	height:20px;
+	text-indent:-999999px;
+	clear:both;
+	}
+
+/* お店情報 */
+div.topShopBox{
+	background-image:url(../img/topShopBox.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px;
+	padding:20px 20px 15px 20px;
+	width:285px;
+	height:375px;
+	float:left;
+	}
+div.topShopBox div.name{
+	margin:0px;
+	padding-top:7px;
+	padding-left:10px;
+	width:275px;
+	height:18px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	clear:both;
+	}
+div.topShopBox div.name a{
+	color:#ffffff;
+	}
+div.topShopBox div.tel{
+	background-image:url(../img/phone.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin:0px;
+	padding-top:8px;
+	padding-left:25px;
+	width:260px;
+	height:22px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	clear:both;
+	}
+div.topShopBox div.tel a{
+	color:#000031;
+	}
+div.topShopBox div.data{
+	margin:0px;
+	padding:0px;
+	width:285px;
+	height:70px;
+	text-align:left;
+	clear:both;
+	}
+table.data1{
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	height:auto;
+	clear:both;
+	}
+table.data1 th{
+	margin:0px;
+	padding:2px;
+	width:40px;
+	height:26px;
+	text-align:center;
+	color:#ffffff;
+	background-color:#000031;
+	font-size:10px;
+	}
+table.data1 td{
+	margin:0px;
+	padding:2px;
+	width:auto;
+	height:26px;
+	text-align:left;
+	color:#333333;
+	background-color:#ffffff;
+	font-size:10px;
+	}
+table.data2{
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	height:auto;
+	clear:both;
+	}
+table.data2 th{
+	margin:0px;
+	padding:2px;
+	width:40px;
+	height:26px;
+	text-align:center;
+	color:#ffffff;
+	background-color:#000031;
+	font-size:10px;
+	}
+table.data2 td{
+	margin:0px;
+	padding:2px;
+	width:auto;
+	height:26px;
+	text-align:left;
+	color:#333333;
+	background-color:#ffffff;
+	font-size:10px;
+	}
+
+div.topShopBox div.img{
+	margin:3px auto 0px auto;
+	padding:0px;
+	width:285px;
+	height:205px;
+	text-align:center;
+	clear:both;
+	}
+
+div.topShopBox div.icon{
+	margin:0px auto;
+	padding:0px;
+	width:280px;
+	height:30px;
+	clear:both;
+	}
+div.topShopBox div.icon p{
+	margin:0px;
+	padding:0px;
+	/* width:140px; */
+	height:30px;
+	text-align:center;
+	float:left;
+	}
+
+
+/*-----  リスト用  -----*/
+
+div#newsQrBox{
+	margin-right:10px;
+	padding:0px;
+	width:330px;
+	height:320px;
+	float:left;
+	}
+/*QR*/
+div#listQr{
+	background-image:url(../img/listQr.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px;
+	padding:0px;
+	width:330px;
+	height:80px;
+	text-indent:-9999px;
+	clear:both;
+	}
+div#listQr a {
+	display: block;
+	width:330px;
+	height:80px;
+	text-decoration: none;
+	}
+div#listQr a:hover {
+	display: block;
+	width:330px;
+	height:80px;
+	text-decoration: none;
+	}
+
+/*新着情報*/
+div#listNewsBox{
+	background-image:url(../img/listNews.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px;
+	padding:60px 5px 15px 5px;
+	width:320px;
+	height:165px;
+	clear:both;
+	}
+div#listNewsBox div#box{
+	overflow:auto;
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #CCCCCC;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #CCCCCC;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #CCCCCC;			/*矢印*/
+	margin:0px auto;
+	padding:0px;
+	width:320px;
+	height:165px;
+	text-align:left;
+	clear:both;
+	}
+
+/*店舗リスト*/
+div.listShopBox{
+	background-image:url(../img/shopTitle.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:10px auto;
+	padding:0px 5px;
+	width:830px;
+	height:auto;
+	background-color:#000031;
+	clear:both;
+	}
+div.shopName{
+	margin:0px auto;
+	padding:0px;
+	width:830px;
+	height:60px;
+	clear:both;
+	}
+div.shopName p.name{
+	margin:0px;
+	padding-top:15px;
+	padding-left:40px;
+	width:620px;
+	height:45px;
+	font-size:16px;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:left;
+	float:left;
+	}
+div.shopName p.name a{
+	color:#ffffff;
+	}
+div.shopName p.area{
+	margin:0px;
+	padding-top:25px;
+	padding-right:10px;
+	width:160px;
+	height:35px;
+	font-size:10px;
+	color:#e4e4e4;
+	text-align:right;
+	float:left;
+	}
+div.listShopDataBox{
+	margin:0px auto;
+	padding:0px 5px;
+	width:820px;
+	height:auto;
+	background-color:#ffffff;
+	clear:both;
+	}
+p.both{
+	margin:0px auto;
+	padding:0px;
+	width:0px;
+	height:5px;
+	clear:both;
+	}
+div.dataBox{
+	margin:0px;
+	padding:0px;
+	width:500px;
+	height:auto;
+	float:left;
+	}
+div.dataBox div.tel{
+	margin:0px auto;
+	padding:0px;
+	width:500px;
+	height:35px;
+	clear:both;
+	}
+div.dataBox div.tel p.tel{
+	background-image:url(../img/phone.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin:0px;
+	padding-top:10px;
+	padding-left:25px;
+	width:225px;
+	height:25px;
+	text-align:left;
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	}
+div.dataBox div.tel p.site{
+	margin:0px;
+	padding:0px;
+	width:250px;
+	height:35px;
+	text-align:left;
+	float:left;
+	}
+div.dataBox div.data{
+	margin:0px auto;
+	padding:0px;
+	width:500px;
+	height:auto;
+	clear:both;
+	}
+div.dataBox div.icon{
+	margin:5px auto;
+	padding:0px;
+	width:500px;
+	height:auto;
+	clear:both;
+	}
+div.dataBox div.icon img{
+	padding-right:1px;
+	float:left;
+	}
+
+div.imgBox{
+	margin:0px;
+	padding:0px;
+	width:320px;
+	height:auto;
+	float:left;
+	}
+div.imgBox div.img{
+	margin:0px auto;
+	padding:0px;
+	width:320px;
+	height:240px;
+	clear:both;
+	}
+div.imgBox div.icon{
+	margin:10px auto 0px auto;
+	padding:0px;
+	width:320px;
+	height:30px;
+	clear:both;
+	}
+div.imgBox div.icon p{
+	margin:0px;
+	padding:0px;
+	width:160px;
+	height:30px;
+	text-align:center;
+	float:left;
+	}
+
+
+
+/*-----  詳細用  -----*/
+div.shopDataTel{
+	margin:0px auto;
+	padding:0px;
+	width:820px;
+	height:50px;
+	clear:both;
+	}
+div.shopDataTel p.tel{
+	background-image:url(../img/phone.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin:0px;
+	padding-top:20px;
+	padding-left:25px;
+	width:180px;
+	height:30px;
+	text-align:left;
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	}
+div.shopDataTel p.site{
+	margin:0px;
+	padding-top:10px;
+	width:205px;
+	height:40px;
+	text-align:left;
+	float:left;
+	}
+div.shopDataTel p.mail{
+	margin:0px;
+	padding-top:5px;
+	width:205px;
+	height:45px;
+	text-align:left;
+	float:left;
+	}
+div.shopDataTel p.bana{
+	margin:0px;
+	padding-top:5px;
+	width:205px;
+	height:45px;
+	text-align:right;
+	float:left;
+	}
+div.shopDataImg{
+	margin:0px;
+	padding:0px;
+	width:324px;
+	height:240px;
+	float:left;
+	}
+div.shopDataComent{
+	margin:0px;
+	padding:0px;
+	width:496px;
+	height:240px;
+	float:left;
+	}
+div.shopDataComent div.title{
+	margin:0px auto;
+	padding-top:3px;
+	padding-left:3px;
+	width:492px;
+	height:17px;
+	background-color:#000031;
+	font-size:10px;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:left;
+	clear:both;
+	}
+div.shopDataComent div.coment{
+	overflow:auto;
+	scrollbar-face-color: #FADEE7;			/*バー本体*/
+	scrollbar-3dlight-color: #F16BB4;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #F16BB4;	/*バー外側の暗*/
+	scrollbar-highlight-color: #FADEE7;		/*バー内側の明*/
+	scrollbar-shadow-color: #FADEE7;		/*バー内側の暗*/
+	scrollbar-track-color: #FADEE7;			/*バーの下地*/
+	scrollbar-arrow-color: #F16BB4;			/*矢印*/
+	margin:0px auto 5px auto;
+	padding:0px;
+	width:495px;
+	height:165px;
+	background-color:#ffffff;
+	font-size:12px;
+	color:#333333;
+	line-height:130%;
+	text-align:left;
+	clear:both;
+	}
+div.shopDataComent div.icon{
+	margin:0px auto;
+	padding:0px;
+	width:495px;
+	height:60px;
+	clear:both;
+	}
+div.shopDataComent div.icon img{
+	padding:0px;
+	float:left;
+	}
+
+div.shopDataDataBox{
+	background-image:url(../img/dataData.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin-top:10px;
+	padding:60px 15px 10px 15px;
+	width:450px;
+	height:460px;
+	float:left;
+	}
+div.shopDataDataBox div.overFlowData{
+	overflow:auto;
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #555555;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #555555;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #555555;			/*矢印*/
+	margin:0px;
+	padding:0px;
+	width:450px;
+	height:460px;
+	clear:both;
+	}
+
+div.shopDataNewsBox{
+	background-image:url(../img/dataNews.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	margin-top:10px;
+	margin-left:10px;
+	padding:60px 15px 10px 15px;
+	width:300px;
+	height:460px;
+	float:left;
+	}
+div.shopDataNewsBox div.overFlowData{
+	overflow:auto;
+	scrollbar-face-color: #ffffff;			/*バー本体*/
+	scrollbar-3dlight-color: #555555;		/*バー外側の明*/
+	scrollbar-darkshadow-color: #555555;	/*バー外側の暗*/
+	scrollbar-highlight-color: #ffffff;		/*バー内側の明*/
+	scrollbar-shadow-color: #ffffff;		/*バー内側の暗*/
+	scrollbar-track-color: #ffffff;			/*バーの下地*/
+	scrollbar-arrow-color: #555555;			/*矢印*/
+	margin:0px;
+	padding:0px;
+	width:300px;
+	height:460px;
+	clear:both;
+	}
+
+
+/*その他のページ*/
+div.otherTitle{
+	margin:0px;
+	padding:0px;
+	width:840px;
+	height:75px;
+	clear:both;
+	}
+
+
+/*バナー*/
+div.bana{
+	margin:0px;
+	padding-top:5px;
+	width:260px;
+	height:65px;
+	text-align:center;
+	font-size:10px;
+	line-height:150%;
+	float:left;
+	}
+div.bana img{
+	padding-bottom:5px;
+	}
+div.bana span{
+	font-weight:bold;
+	font-size:16px;
+	color:#F13F91;
+	}
+
+/*-----  フッター  -----*/
+div#footer-bg{
+	background-image:url(../img/footer-bg.jpg);
+	background-repeat:repeat-x;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px;
+	width:100%;
+	height:90px;
+	clear:both;
+	}
+div#footer{
+	background-image:url(../img/footer.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin:0px auto;
+	padding:0px;
+	width:860px;
+	height:90px;
+	clear:both;
+	}
+div#footer div#footer-menu{
+	margin:0px auto 35px auto;
+	padding-top:5px;
+	width:860px;
+	height:25px;
+	text-align:center;
+	color:#000031;
+	font-size:10px;
+	clear:both;
+	}
+div#footer div#copyright{
+	margin:0px auto;
+	padding:5px;
+	width:860px;
+	height:15px;
+	text-align:center;
+	color:#ffffff;
+	font-size:11px;
+	clear:both;
+	}
+/*ロゴ*/
+div#footer div#footerRogo {
+	margin:0px auto;
+	padding:0px;
+	width:160px;
+	height:50px;
+	text-indent:-9999px;
+	clear:both;
+	}
+div#footer div#footerRogo a {
+	display: block;
+	width:160px;
+	height:50px;
+	text-decoration: none;
+	}
+div#footer div#footerRogo a:hover {
+	display: block;
+	width:160px;
+	height:50px;
+	text-decoration: none;
+	}
+
+/*NextBack*/
+div#pager{
+	width:650px;
+	height:70px;
+	margin:0px auto;
+	padding:10px auto;
+	clear:both;
+}
+div#pager p{
+	width:325px;
+	height:70px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	float:left;
+}
+
+div#pager li{
+	float:left;
+}
+
+/*table*/
+table{
+	margin:10px auto;
+	padding:2px;
+	width:90%;
+	height:auto;
+	clear:both;
+	}
+table th{
+	margin:0px;
+	padding:3px;
+	text-align:right;
+	color:#ffffff;
+	background-color:#000031;
+	font-size:11px;
+	}
+table td{
+	margin:0px;
+	padding:3px;
+	text-align:left;
+	color:#333333;
+	background-color:#ffffff;
+	font-size:11px;
+	}
+table td.botan{
+	text-align:center;
+	}
+div.submit{
+	margin:0px auto;
+	padding:2px;
+	width:auto;
+	height:auto;
+	text-align:center;
+	clear:both;
+	}
+
+/*コメント*/
+div.commentText{
+	margin:20px auto;
+	padding:10px;
+	width:600px;
+	height:auto;
+	text-align:left;
+	color:#ffffff;
+	background-color:#000031;
+	clear:both;
+	}
+
+/*バナー*/
+div#linkBana{
+	margin:10px auto;
+	padding:0px;
+	width:auto;
+	height:auto;
+	clear:both;
+}
+div#linkBana div#title{
+	margin:0px auto;
+	padding:0px 5px;
+	width:auto;
+	height:auto;
+	text-align:center;
+	clear:both;
+}
+div#linkBana p{
+	margin:0px auto;
+	padding:10px;
+	width:820px;
+	height:auto;
+	text-align:left;
+	font-size:11px;
+	border-bottom:1px dashed #000031;
+	clear:both;
+}
+div#linkBana p span{
+	font-size:11px;
+	color:#000031;
+}
+
+
+/*リンクボタン*/
+div#linkBotan {
+	margin:10px auto;
+	padding:0px;
+	width:760px;
+	height:40px;
+	clear:both;
+	}
+div#linkBotan a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-indent:-9999px;
+	}
+/*相互リンク*/
+div#linkBotan p.link1 {
+	background-image:url(../img/link_button1.jpg);
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+	width:190px;
+	height:40px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#linkBotan p.link1 a.this {
+	background-image:url(../img/link_button1_ov.jpg);
+	background-repeat:no-repeat;
+	}
+div#linkBotan p.link1 a:hover {
+	background-image:url(../img/link_button1_ov.jpg);
+	background-repeat:no-repeat;
+	}
+/*ランキングリンク*/
+div#linkBotan p.link2 {
+	background-image:url(../img/link_button2.jpg);
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+	width:190px;
+	height:40px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#linkBotan p.link2 a.this {
+	background-image:url(../img/link_button2_ov.jpg);
+	background-repeat:no-repeat;
+	}
+div#linkBotan p.link2 a:hover {
+	background-image:url(../img/link_button2_ov.jpg);
+	background-repeat:no-repeat;
+	}
+/*おすすめリンク*/
+div#linkBotan p.link3 {
+	background-image:url(../img/link_button3.jpg);
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+	width:190px;
+	height:40px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#linkBotan p.link3 a.this {
+	background-image:url(../img/link_button3_ov.jpg);
+	background-repeat:no-repeat;
+	}
+div#linkBotan p.link3 a:hover {
+	background-image:url(../img/link_button3_ov.jpg);
+	background-repeat:no-repeat;
+	}
+/*求人リンク*/
+div#linkBotan p.link4 {
+	background-image:url(../img/link_button4.jpg);
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+	width:190px;
+	height:40px;
+	text-indent:-9999px;
+	float:left;
+	}
+div#linkBotan p.link4 a.this {
+	background-image:url(../img/link_button4_ov.jpg);
+	background-repeat:no-repeat;
+	}
+div#linkBotan p.link4 a:hover {
+	background-image:url(../img/link_button4_ov.jpg);
+	background-repeat:no-repeat;
+	}
+
+
+/*リンクBox*/
+div.linkBox {
+	margin:5px;
+	padding:10px;
+	width:170px;
+	height:80px;
+	background-color:#000031;
+	text-align:center;
+	font-size:10px;
+	color:#ffffff;
+	float:left;
+	}
+div.linkBox a{
+	color:#ffffff;
+	}
