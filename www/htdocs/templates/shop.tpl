@@ -106,7 +106,7 @@
         <div id="tab-2" class="tab-content">
             {if $shopData.workComment}
             <section class="contBg" id="knowMore">
-                <h2>メニュー</h2>
+                <h2><i class="fa-solid fa-bars fontawesome"></i>メニュー</h2>
                 <div>
                     <div class="knowMoreText">{$shopData.workComment|nl2br}</div>
                 </div>
@@ -124,7 +124,7 @@
 
         <div id="tab-3" class="tab-content">
             <section class="contBg" id="application">
-                <h2>募集要項</h2>
+                <h2><i class="fa-solid fa-file-pen fontawesome"></i>募集要項</h2>
                 <div>
                     <ul class="jobDetailCont jobList">
                         <li>
