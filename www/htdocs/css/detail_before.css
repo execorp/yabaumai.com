@@ -155,24 +155,24 @@
 @media only screen and (min-width:1201px) and ( max-width:2400px) {
     .shopImg {
         width: 500px;
-        height: 500px;
+        height: auto;
         vertical-align: bottom;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 @media only screen and (min-width:576px) and ( max-width:1200px) {
     .shopImg {
         width: 400px;
-        height: 400px;
+        height: auto;
         vertical-align: bottom;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 @media only screen and (max-width:575px) {
     .shopImg {
         width: 300px;
-        height: 300px;
+        height: auto;
         vertical-align: bottom;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
